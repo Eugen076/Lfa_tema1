@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+    margin-left: 4px;
+    background-color: rgb(163, 232, 163); 
+}
+
+.content {
+    text-align: center;
+    background-color: rgb(163, 232, 163); 
+}
+
+button {
+    display: inline-block;
+    padding: 15px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(68, 157, 105);
+    transition: box-shadow 0.3s ease; 
+}
+
+button:active {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}

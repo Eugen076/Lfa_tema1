@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresii Regulate</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <h3>Expresii Regulate</h3>
+    </section>
+
+    <section class="content">
+        <div class="main">
+            <p><b>Introduceți pattern-ul:</b></p>
+            <input class="pattern" id="patternInput" type="text" value=""></input>
+
+            <p><b>Introduceți textul:</b></p>
+            <input class="textInput" id="textInput" type="text" value=""></input>
+
+            <p><b>Introduceți textul mare:</b></p>
+            <textarea rows="5" cols="50" id="largeTextInput"></textarea><br><br>
+
+            <button class="button" onclick="verifyPattern()">Verifică</button><br><br>
+
+            <p><b>Mesaj:</b></p>
+            <div id="message"></div><br>
+
+            <p><b>Rezultat:</b></p>
+            <div id="result"></div>
+        </div>
+    </section>
+</body>
+
+</html>
